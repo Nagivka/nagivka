@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ногивко</title>
+    <style>
+        :root { --text: #ffffff; --accent: #8b9dff; }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Inter', sans-serif;
+            background: #05060a;
+            color: var(--text);
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+        .avatar {
+            width: 165px; height: 165px;
+            border-radius: 50%;
+            border: 2px solid rgba(255,255,255,0.85);
+            object-fit: cover;
+            margin-bottom: 22px;
+        }
+        .name { font-size: 38px; font-weight: 800; }
+        .bio { color: #aeb2c2; margin-top: 10px; font-size: 17px; }
+        .socials { display: flex; gap: 20px; margin-top: 25px; }
+        .social { color: white; text-decoration: none; font-size: 24px; transition: 0.3s; }
+        .social:hover { opacity: 0.7; }
+        .footer { position: fixed; bottom: 20px; color: #555; }
+    </style>
+</head>
+<body>
+
+    <img src="avatar.jpg" alt="аватар" class="avatar">
+    <div class="name">ногивко</div>
+    <p class="bio">далбайоп</p>
+
+    <div class="socials">
+        <a href="https://discord.com/invite/Cy8aWZvB" class="social">Discord</a>
+        <a href="https://t.me/nagivko_dll" class="social">Telegram</a>
+        <a href="https://github.com/Nagivka" class="social">GitHub</a>
+    </div>
+
+
+</body>
+</html>
